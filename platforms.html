@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Platform — TrainAgentAI</title>
+<meta name="description" content="TrainAgentAI for AI labs, enterprises, and talent — plus how we handle security and compliance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-bar">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>TrainAgentAI</a>
+    <div class="nav-links">
+      <a class="nav-link" href="platforms.html">Platform</a>
+      <a class="nav-link" href="resources.html">Resources</a>
+      <a class="nav-link" href="pricing.html">Pricing</a>
+      <a class="nav-link" href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-ghost" href="login.html">Log in →</a>
+      <a class="btn btn-primary btn-sm" href="contact.html">Book a demo →</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu">
+  <div class="mobile-menu-top">
+    <span class="logo"><span class="logo-mark"></span>TrainAgentAI</span>
+    <button class="mobile-close" aria-label="Close menu">✕</button>
+  </div>
+  <a href="platforms.html">Platform</a>
+  <a href="resources.html">Resources</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="about.html">About</a>
+  <a href="careers.html">Careers</a>
+  <a href="contact.html">Contact / Book a demo</a>
+</div>
+
+<div class="back-home-row wrap">
+  <a href="index.html" class="back-home-link">Back →</a>
+</div>
+
+<!-- PLATFORM OVERVIEW -->
+<section class="section" style="padding-top:64px; padding-bottom:48px;">
+  <div class="wrap reveal">
+    <span class="eyebrow">The Platform</span>
+    <h1 class="display-1" style="font-size:clamp(2.4rem,5vw,4.4rem); max-width:760px;">One workforce platform, built for whoever you are.</h1>
+    <p class="lede mt-24" style="max-width:640px;">Frontier lab, enterprise buyer, contributor, or security reviewer — TrainAgentAI looks different depending on where you sit, but it's the same workforce, pipeline, and controls underneath.</p>
+    <div class="grid grid-3 mt-40" style="gap:16px;">
+      <a href="#ai-labs" class="card platform-jump-card">
+        <div class="card-icon" style="background:var(--indigo);">⌬</div>
+        <h3 class="display-3" style="font-size:1rem;">For AI Labs</h3>
+        <p class="mt-12" style="font-size:0.86rem; color:var(--ink-soft);">Frontier training data &amp; RLHF</p>
+      </a>
+      <a href="#enterprises" class="card platform-jump-card">
+        <div class="card-icon" style="background:var(--coral);">⬡</div>
+        <h3 class="display-3" style="font-size:1rem;">For Enterprises</h3>
+        <p class="mt-12" style="font-size:0.86rem; color:var(--ink-soft);">Managed data operations</p>
+      </a>
+      <a href="#security" class="card platform-jump-card">
+        <div class="card-icon" style="background:var(--green-tag);">✓</div>
+        <h3 class="display-3" style="font-size:1rem;">Security &amp; Compliance</h3>
+        <p class="mt-12" style="font-size:0.86rem; color:var(--ink-soft);">How we protect your data</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOR AI LABS ============ -->
+<section class="section platform-anchor" id="ai-labs">
+  <div class="wrap">
+    <div class="grid grid-2 reveal" style="align-items:center; gap:56px;">
+      <div>
+        <span class="eyebrow">For AI Labs &amp; Foundation Model Teams</span>
+        <h2 class="display-1" style="font-size:clamp(2rem,4vw,3.2rem);">Data infrastructure for frontier training runs.</h2>
+        <p class="lede mt-24">From pretraining curation to RLHF to red-teaming, TrainAgentAI gives labs a workforce and pipeline built for the pace of frontier development.</p>
+        <div class="btn-row mt-40">
+          <a href="contact.html" class="btn btn-primary">Talk to research ops →</a>
+        </div>
+      </div>
+      <div>
+        <div class="flow-diagram">
+          <span class="tag-chip tag-indigo">RLHF WORKFLOW</span>
+          <div class="flow-steps">
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--yellow); color:var(--ink);">1</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Model generates completions</h4>
+                <p class="flow-desc">Multiple candidate responses are sampled for the same prompt.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--coral); color:var(--white);">2</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Human ranking</h4>
+                <p class="flow-desc">Trained raters order completions by helpfulness, honesty, and safety.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--indigo); color:var(--white);">3</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Disagreement review</h4>
+                <p class="flow-desc">Conflicting rankings are escalated to a senior rater for adjudication.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--green-tag); color:var(--white);">4</div>
+              <div class="flow-body">
+                <h4 class="flow-title">RLHF-ready dataset</h4>
+                <p class="flow-desc">Preference pairs are exported in your training format, ready for fine-tuning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flow-caption">Every ranking task passes through this loop before it reaches your reward model.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-dim" id="ai-labs-capabilities">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag-chip tag-indigo">CAPABILITIES</span>
+      <h2 class="display-2 mt-12">Built for the way labs actually train models.</h2>
+    </div>
+    <div class="grid grid-3 reveal">
+      <div class="card">
+        <div class="card-icon" style="background:var(--yellow);">⌖</div>
+        <h3 class="display-3" style="font-size:1.1rem;">Dataset acquisition</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Source pretraining and fine-tuning data across modalities, with provenance and licensing tracked from day one.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--coral);">◐</div>
+        <h3 class="display-3" style="font-size:1.1rem;">RLHF workflows</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Preference ranking, critique-and-revise, and reward-model data from evaluators trained on your rubric.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--indigo);">★</div>
+        <h3 class="display-3" style="font-size:1.1rem;">Human evaluation</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Side-by-side model comparison, rubric scoring, and qualitative review at the cadence your release cycle needs.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--green-tag);">⟲</div>
+        <h3 class="display-3" style="font-size:1.1rem;">Synthetic data</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Model-generated data with human verification loops to catch hallucinated or low-quality synthetic samples.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--yellow);">▦</div>
+        <h3 class="display-3" style="font-size:1.1rem;">Benchmarking</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Custom eval-set construction for capability tracking, safety testing, and competitive benchmarking.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--coral);">⌬</div>
+        <h3 class="display-3" style="font-size:1.1rem;">Research support</h3>
+        <p class="mt-12 body-lg" style="font-size:0.93rem;">Embedded research-ops teams who can stand up novel labeling tasks within days, not quarters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2 reveal" style="align-items:center; gap:56px;">
+      <div>
+        <span class="tag-chip tag-coral">WHY LABS PICK US</span>
+        <h2 class="display-2 mt-12">Built to move at the pace research actually moves.</h2>
+        <p class="body-lg mt-24">Most data vendors are built for steady-state enterprise work. Frontier labs need something different: schemas that change weekly, evaluator pools that can be retrained overnight, and QA that catches subtle reward-hacking before it ships in a model.</p>
+        <ul class="mt-24" style="display:flex; flex-direction:column; gap:14px;">
+          <li class="flex items-center gap-12"><span class="tag-chip tag-yellow">01</span> Same-week schema changes, not quarterly contract renegotiation</li>
+          <li class="flex items-center gap-12"><span class="tag-chip tag-coral">02</span> Evaluator pools segmented by domain expertise, not generalist crowds</li>
+          <li class="flex items-center gap-12"><span class="tag-chip tag-indigo">03</span> Direct API and pipeline integration into your training infra</li>
+        </ul>
+      </div>
+      <div class="card" style="padding:40px;">
+        <div class="flex" style="gap:20px; flex-wrap:wrap;">
+          <div><span class="stat-num" data-count="6" data-suffix=" days">0</span><div class="stat-label">Avg. time to stand up a new eval task</div></div>
+          <div><span class="stat-num" data-count="14" data-suffix="+">0</span><div class="stat-label">Languages with native evaluator pools</div></div>
+        </div>
+        <hr class="divider-dash mt-24">
+        <p class="mt-24 body-lg" style="font-size:0.94rem;">"We needed red-team data on a Friday and had qualified evaluators in the loop by Monday." — Research Ops Lead, Orbital Foundation</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOR ENTERPRISES ============ -->
+<section class="section bg-dim platform-anchor" id="enterprises">
+  <div class="wrap">
+    <div class="grid grid-2 reveal" style="align-items:center; gap:56px;">
+      <div>
+        <span class="eyebrow">For Enterprise AI Teams</span>
+        <h2 class="display-1" style="font-size:clamp(2rem,4vw,3.2rem);">Managed data operations, without the managed-vendor headache.</h2>
+        <p class="lede mt-24">A dedicated workforce pod, enterprise security controls, and a single point of accountability for every dataset that touches your models.</p>
+        <div class="btn-row mt-40">
+          <a href="contact.html" class="btn btn-primary">Talk to enterprise sales →</a>
+        </div>
+      </div>
+      <div class="card" style="padding:36px;">
+        <div class="grid grid-2" style="gap:18px;">
+          <div class="pill-badge">SOC 2 Type II</div>
+          <div class="pill-badge">GDPR ready</div>
+          <div class="pill-badge">SSO / SAML</div>
+          <div class="pill-badge">Dedicated pods</div>
+        </div>
+        <hr class="divider-dash mt-24">
+        <p class="mt-24 body-lg" style="font-size:0.94rem;">Everything your security review needs, documented before you ask for it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag-chip tag-indigo">ENTERPRISE CAPABILITIES</span>
+      <h2 class="display-2 mt-12">Operations built for procurement, not just engineering.</h2>
+    </div>
+    <div class="grid grid-3 reveal">
+      <div class="card"><div class="card-icon" style="background:var(--yellow);">⬡</div><h3 class="display-3" style="font-size:1.1rem;">Workforce management</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Dedicated, vetted contributor pods scoped to your domain and retained across projects.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--coral);">⌬</div><h3 class="display-3" style="font-size:1.1rem;">Data operations</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">End-to-end pipeline management, from intake to delivery, with a named ops lead.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--indigo);">◈</div><h3 class="display-3" style="font-size:1.1rem;">Security</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Encryption in transit and at rest, access controls, and audit logging on every task.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--green-tag);">✓</div><h3 class="display-3" style="font-size:1.1rem;">Compliance</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">SOC 2, GDPR, and sector-specific requirements built into contributor onboarding.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--yellow);">⚙</div><h3 class="display-3" style="font-size:1.1rem;">Managed services</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">We run the program; you review the dashboard and the output.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--coral);">▦</div><h3 class="display-3" style="font-size:1.1rem;">Enterprise deployment</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">VPC delivery, on-prem options, and integration with your existing MLOps stack.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-dim">
+  <div class="wrap">
+    <div class="grid grid-2 reveal" style="align-items:center; gap:56px;">
+      <div>
+        <span class="tag-chip tag-coral">HOW PROCUREMENT SEES US</span>
+        <h2 class="display-2 mt-12">One contract, one SLA, one team to call.</h2>
+        <p class="body-lg mt-24">Enterprise buyers don't want five vendors and five invoices. You get a single statement of work covering sourcing, labeling, validation, and delivery, with one escalation path when something needs attention.</p>
+      </div>
+      <div class="flex gap-20" style="flex-wrap:wrap;">
+        <div><span class="stat-num" data-count="99.9" data-suffix="%">0</span><div class="stat-label">SLA uptime on managed pods</div></div>
+        <div><span class="stat-num" data-count="48" data-suffix="hr">0</span><div class="stat-label">Avg. response time on escalations</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECURITY & COMPLIANCE ============ -->
+<section class="section platform-anchor" id="security">
+  <div class="wrap reveal">
+    <span class="eyebrow">Security &amp; Compliance</span>
+    <h2 class="display-1" style="font-size:clamp(2rem,4vw,3.2rem);">Treat your data the way you'd treat it yourself.</h2>
+    <p class="lede mt-24">Every contributor, every pipeline, and every export is built around a single principle: your training data is sensitive, and it's handled that way at every stage.</p>
+  </div>
+</section>
+
+<section class="section bg-dim">
+  <div class="wrap">
+    <div class="grid grid-3 reveal">
+      <div class="card"><div class="card-icon" style="background:var(--yellow);">◈</div><h3 class="display-3" style="font-size:1.1rem;">Encryption</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Data encrypted in transit (TLS 1.2+) and at rest (AES-256) across every storage layer.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--coral);">⚿</div><h3 class="display-3" style="font-size:1.1rem;">Access control</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Role-based access, least-privilege defaults, and full audit logs on every task touch.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--indigo);">✓</div><h3 class="display-3" style="font-size:1.1rem;">SOC 2 Type II</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Independently audited controls covering security, availability, and confidentiality.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--green-tag);">⚖</div><h3 class="display-3" style="font-size:1.1rem;">GDPR &amp; data residency</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Regional data residency options and documented data subject request handling.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--yellow);">⛨</div><h3 class="display-3" style="font-size:1.1rem;">Contributor vetting</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Identity verification, NDAs, and task-specific clearance before any contributor touches sensitive data.</p></div>
+      <div class="card"><div class="card-icon" style="background:var(--coral);">⎘</div><h3 class="display-3" style="font-size:1.1rem;">Data minimization</h3><p class="mt-12 body-lg" style="font-size:0.93rem;">Contributors see only the slice of data required for their specific task — never the full dataset.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2 reveal" style="align-items:center; gap:56px;">
+      <div>
+        <span class="tag-chip tag-coral">HOW WE'RE AUDITED</span>
+        <h2 class="display-2 mt-12">Documentation ready before your review starts.</h2>
+        <p class="body-lg mt-24">SOC 2 Type II reports, sub-processor lists, data flow diagrams, and pen-test summaries are kept current and ready to share under NDA — no scrambling when a vendor security questionnaire lands in your inbox.</p>
+        <ul class="mt-24" style="display:flex; flex-direction:column; gap:14px;">
+          <li class="flex items-center gap-12"><span class="tag-chip tag-yellow">01</span> Annual third-party SOC 2 Type II audit</li>
+          <li class="flex items-center gap-12"><span class="tag-chip tag-coral">02</span> Continuous access logging with anomaly alerts</li>
+          <li class="flex items-center gap-12"><span class="tag-chip tag-indigo">03</span> Regional data residency on request</li>
+        </ul>
+      </div>
+      <div class="card" style="padding:40px;">
+        <div class="flex" style="gap:20px; flex-wrap:wrap;">
+          <div><span class="stat-num" data-count="100" data-suffix="%">0</span><div class="stat-label">Contributors background-checked before access</div></div>
+          <div><span class="stat-num" data-count="24" data-suffix="hr">0</span><div class="stat-label">Access revoked after offboarding</div></div>
+        </div>
+        <hr class="divider-dash mt-24">
+        <p class="mt-24 body-lg" style="font-size:0.94rem;">"Their security packet answered every question on our questionnaire before we'd even finished writing it." — Security Lead, Cascade ML</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHARED CTA -->
+<section class="section text-center" style="background:var(--paper);">
+  <div class="wrap reveal">
+    <span class="tag-chip tag-yellow">GET STARTED</span>
+    <h2 class="display-2 mt-12" style="color:var(--ink);">Whichever seat you're in, let's talk.</h2>
+    <div class="btn-row mt-40" style="justify-content:center;">
+      <a href="contact.html" class="btn btn-primary">Book a demo →</a>
+      <a href="pricing.html" class="btn btn-outline">View pricing →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col">
+        <span class="logo" style="color:var(--paper);"><span class="logo-mark"></span>TrainAgentAI</span>
+        <p class="mt-24" style="font-size:0.9rem; color:rgba(250,247,240,0.6); max-width:260px;">Real-world human intelligence for the next generation of AI, robotics, and autonomous systems.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Policies</h4>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="data-license.html">Data License</a>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="platforms.html#ai-labs">Labs</a>
+        <a href="platforms.html#enterprises">Enterprise</a>
+        <a href="platforms.html#security">Security &amp; Compliance</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get started</h4>
+        <a href="contact.html">Book a demo</a>
+        <a href="contact.html">Contact sales</a>
+        <a href="contributors.html">Join as contributor</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 TrainAgentAI. All rights reserved.</span>
+      <span>Made for the people who train the machines.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

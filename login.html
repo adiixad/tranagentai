@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log in — TrainAgentAI</title>
+<meta name="description" content="Log in to your TrainAgentAI account to access your dashboard, projects, and data pipelines.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>TrainAgentAI</a>
+    <div class="nav-links">
+      <a class="nav-link" href="platforms.html">Platform</a>
+      <a class="nav-link" href="resources.html">Resources</a>
+      <a class="nav-link" href="pricing.html">Pricing</a>
+      <a class="nav-link" href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <a class="btn btn-ghost" href="login.html">Log in →</a>
+      <a class="btn btn-primary btn-sm" href="contact.html">Book a demo →</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu">
+  <div class="mobile-menu-top">
+    <span class="logo"><span class="logo-mark"></span>TrainAgentAI</span>
+    <button class="mobile-close" aria-label="Close menu">✕</button>
+  </div>
+  <a href="platforms.html">Platform</a>
+  <a href="platforms.html#security">Security &amp; Compliance</a>
+  <a href="resources.html">Resources</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="about.html">About</a>
+  <a href="careers.html">Careers</a>
+  <a href="contact.html">Contact / Book a demo</a>
+</div>
+
+<div class="back-home-row wrap">
+  <a href="index.html" class="back-home-link">Back →</a>
+</div>
+
+<section class="section" style="padding-top:64px; padding-bottom:64px;">
+  <div class="wrap">
+    <div class="login-split">
+      <div class="reveal login-split-visual">
+        <div class="flow-diagram">
+          <span class="tag-chip tag-indigo">YOUR DASHBOARD</span>
+          <div class="flow-steps">
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--yellow); color:var(--ink);">1</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Sign in</h4>
+                <p class="flow-desc">Authenticate with your work email to reach your workspace.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--coral); color:var(--white);">2</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Pick up your pipeline</h4>
+                <p class="flow-desc">See live project status across collection, labeling, and QA.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--indigo); color:var(--white);">3</div>
+              <div class="flow-line"></div>
+              <div class="flow-body">
+                <h4 class="flow-title">Review &amp; approve</h4>
+                <p class="flow-desc">Sample batches, flag drift, and sign off before delivery.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="flow-node" style="background:var(--green-tag); color:var(--white);">4</div>
+              <div class="flow-body">
+                <h4 class="flow-title">Pull your dataset</h4>
+                <p class="flow-desc">Export or sync straight into your training infrastructure.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flow-caption">One login, the whole pipeline — from sourcing to delivery.</div>
+        </div>
+      </div>
+
+      <div class="reveal login-split-form">
+        <div class="card login-card" style="padding:36px;">
+          <div class="text-center">
+            <span class="eyebrow">Welcome back</span>
+            <h1 class="display-2" style="font-size:clamp(1.8rem,3.4vw,2.4rem);">Log in to TrainAgentAI</h1>
+            <p class="lede mt-12" style="max-width:420px; margin:12px auto 0; font-size:1rem;">Access your dashboard, projects, and data pipelines.</p>
+          </div>
+
+          <form data-form id="login-form" class="mt-40">
+            <div class="mt-12">
+              <label style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:6px;">Work email</label>
+              <input type="email" required placeholder="you@company.com" style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:0; font-family:inherit; font-size:0.95rem;">
+            </div>
+            <div class="mt-12">
+              <div class="flex justify-between items-center">
+                <label style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:6px;">Password</label>
+                <a href="contact.html" style="font-size:0.82rem; color:var(--indigo-deep); margin-bottom:6px;">Forgot password?</a>
+              </div>
+              <input type="password" required placeholder="••••••••" style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:0; font-family:inherit; font-size:0.95rem;">
+            </div>
+            <button type="submit" class="btn btn-primary mt-24" style="width:100%; justify-content:center;">Log in →</button>
+          </form>
+          <div class="form-success" style="display:none;">
+            <h3 class="display-3" style="font-size:1.3rem;">You're in.</h3>
+            <p class="body-lg mt-12">Taking you to your dashboard…</p>
+          </div>
+          <p class="text-center mt-24" style="font-size:0.88rem; color:var(--ink-soft);">
+            Don't have an account? <a href="contact.html" style="color:var(--indigo-deep); font-weight:600;">Book a demo →</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col">
+        <span class="logo" style="color:var(--paper);"><span class="logo-mark"></span>TrainAgentAI</span>
+        <p class="mt-24" style="font-size:0.9rem; color:rgba(250,247,240,0.6); max-width:260px;">Real-world human intelligence for the next generation of AI, robotics, and autonomous systems.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Policies</h4>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="data-license.html">Data License</a>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="platforms.html#ai-labs">Labs</a>
+        <a href="platforms.html#enterprises">Enterprise</a>
+        <a href="platforms.html#security">Security &amp; Compliance</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get started</h4>
+        <a href="contact.html">Book a demo</a>
+        <a href="contact.html">Contact sales</a>
+        <a href="contributors.html">Join as contributor</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 TrainAgentAI. All rights reserved.</span>
+      <span>Made for the people who train the machines.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
